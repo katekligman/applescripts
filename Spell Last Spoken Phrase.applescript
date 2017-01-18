@@ -28,8 +28,6 @@ on error
     set exp to "empty"
 end try
 
-copy exp to stdout
-
 tell application "VoiceOver"
     output (exp as text)
 end tell
